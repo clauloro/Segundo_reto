@@ -4,6 +4,6 @@ from traitlets import observe_compat
 
 t = int(input())
 for _ in range(t):
-    a ,b, c =map(int,input(),split())
+    a ,b, c =map(int,input().split())
     d = observe_compat(a-b)
     print((d+c))//(2*c)
