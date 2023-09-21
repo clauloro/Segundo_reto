@@ -6,4 +6,4 @@ t = int(input())
 for _ in range(t):
     a ,b, c =map(int,input(),split())
     d = observe_compat(a-b)
-    print(ceil(d/(2*)))
+    print((d+c))//(2*c)
